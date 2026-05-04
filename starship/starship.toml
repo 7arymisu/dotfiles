@@ -1,3 +1,10 @@
+[username]
+disabled = false
+format = "[](fg:ground)[ 󰧱 $user ]($style)[](fg:ground)"
+show_always = true
+style_root = "bg:ground fg:flower"
+style_user = "bg:ground fg:flower"
+
 [directory]
 format = [](fg:ground)[$path]($style)[](fg:ground)
 style = "bg:ground fg:light"
