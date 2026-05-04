@@ -1,3 +1,6 @@
+format = "$status $username $directory $git_branch$fill $time\n  [󱞪](fg:iris) "
+palette = "rose-pine"
+
 [username]
 disabled = false
 format = "[](fg:ground)[ 󰧱 $user ]($style)[](fg:ground)"
