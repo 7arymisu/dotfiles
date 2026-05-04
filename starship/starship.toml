@@ -27,8 +27,8 @@ time_format = "%I:%M%P"
 use_12hr = true
 
 [palettes.lily-pad]
-ground = '0a3323'
-water = '105666'
-moss = '839958'
-flower = 'd3968c'
-light = 'f7f4d5'
+ground = '#0a3323'
+water = '#105666'
+moss = '#839958'
+flower = '#d3968c'
+light = '#f7f4d5'
