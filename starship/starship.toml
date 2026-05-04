@@ -28,7 +28,7 @@ use_12hr = true
 
 [palettes.winter-wonder]
 charcoal = '#313c45'
-steel = '#4f6271'
-ice = '#778ca4'
-cloud = '#b3bfcb'
-snow = '#d5dbe2'
+slate = '#384c65'
+frost = '#485f88'
+mist = '#9daccc'
+powder = '#c0c9db'
