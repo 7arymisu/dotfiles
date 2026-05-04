@@ -11,6 +11,13 @@ style = "bg:ground fg:light"
 truncation_length = 3
 truncation_symbol = ".../"
 
+[time]
+disabled = false
+format = "[](fg:ground)[ $time 󰴈 ]($style)[](fg:ground)"
+style = "bg:ground fg:moss"
+time_format = "%I:%M%P"
+use_12hr = true
+
 [palettes.lily-pad]
 ground = '0a3323'
 water = '105666'
