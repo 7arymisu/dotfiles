@@ -1,0 +1,12 @@
+[directory]
+format = [](fg:ground)[$path]($style)[](fg:ground)
+style = "bg:ground fg:light"
+truncation_length = 3
+truncation_symbol = ".../"
+
+[palettes.lily-pad]
+ground = '0a3323'
+water = '105666'
+moss = '839958'
+flower = 'd3968c'
+light = 'f7f4d5'
