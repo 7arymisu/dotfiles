@@ -11,6 +11,11 @@ style = "bg:ground fg:light"
 truncation_length = 3
 truncation_symbol = ".../"
 
+[git_branch]
+format = "[](fg:ground)[ $symbol $branch ]($style)[](fg:ground)"
+style = "bg:ground fg:moss"
+symbol = ""
+
 [time]
 disabled = false
 format = "[](fg:ground)[ $time 󰴈 ]($style)[](fg:ground)"
