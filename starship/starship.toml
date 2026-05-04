@@ -5,8 +5,8 @@ palette = "winter-wonder"
 disabled = false
 format = "[](fg:charcoal)[ 󰧱 $user ]($style)[](fg:charcoal)"
 show_always = true
-style_root = "bg:charcoal fg:mist"
-style_user = "bg:charcoal fg:mist"
+style_root = "bg:charcoal fg:powder"
+style_user = "bg:charcoal fg:powder"
 
 [directory]
 format = "[](fg:charcoal)[$path]($style)[](fg:charcoal)"
@@ -27,8 +27,8 @@ time_format = "%I:%M%P"
 use_12hr = true
 
 [palettes.winter-wonder]
-charcoal = '#313c45'
-slate = '#384c65'
-frost = '#485f88'
-mist = '#9daccc'
-powder = '#c0c9db'
+charcoal = '#1d252b'
+slate = '#213955'
+frost = '#445d88'
+mist = '#aabadc'
+powder = '#d6deee'
