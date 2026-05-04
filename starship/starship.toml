@@ -1,0 +1,6 @@
+[directory]
+format = [](fg:ground)[$path]($style)[](fg:ground)
+style = "bg:ground fg:light"
+truncation_length = 3
+truncation_symbol = ".../"
+
