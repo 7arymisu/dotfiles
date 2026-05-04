@@ -5,24 +5,24 @@ palette = "winter-wonder"
 disabled = false
 format = "[](fg:charcoal)[ 󰧱 $user ]($style)[](fg:charcoal)"
 show_always = true
-style_root = "bg:charcoal fg:cloud"
-style_user = "bg:charcoal fg:cloud"
+style_root = "bg:charcoal fg:mist"
+style_user = "bg:charcoal fg:mist"
 
 [directory]
 format = "[](fg:charcoal)[$path]($style)[](fg:charcoal)"
-style = "bg:charcoal fg:snow"
+style = "bg:charcoal fg:powder"
 truncation_length = 3
 truncation_symbol = ".../"
 
 [git_branch]
 format = "[](fg:charcoal)[ $symbol $branch ]($style)[](fg:charcoal)"
-style = "bg:charcoal fg:ice"
+style = "bg:charcoal fg:frost"
 symbol = ""
 
 [time]
 disabled = false
 format = "[](fg:charcoal)[ $time 󰴈 ]($style)[](fg:charcoal)"
-style = "bg:charcoal fg:cloud"
+style = "bg:charcoal fg:mist"
 time_format = "%I:%M%P"
 use_12hr = true
 
