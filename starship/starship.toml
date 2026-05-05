@@ -1,4 +1,4 @@
-format = "$username $directory $git_branch $time\n  [󱞪](fg:light) "
+format = "$username $directory $git_branch$fill $time\n  [󱞪](fg:light) "
 palette = "winter-wonder"
 
 [username]
@@ -26,8 +26,12 @@ style = "bg:charcoal fg:mist"
 time_format = "%I:%M%P"
 use_12hr = true
 
+[fill]
+style = "fg:charcoal"
+symbol = " "
+
 [palettes.winter-wonder]
-charcoal = '#1d252b'
+charcoal = '#20262c'
 slate = '#213955'
 frost = '#445d88'
 mist = '#aabadc'
