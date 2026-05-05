@@ -31,8 +31,8 @@ style = "fg:charcoal"
 symbol = " "
 
 [palettes.winter-wonder]
-charcoal = '#20262c'
-slate = '#213955'
-frost = '#445d88'
-mist = '#aabadc'
-powder = '#d6deee'
+charcoal = '#262d35'
+slate = '#24425e'
+frost = '#4369ab'
+mist = '#9daad5'
+powder = '#c2e0ec'
