@@ -3,7 +3,7 @@ palette = "starry-night"
 
 [username]
 disabled = false
-format = "[](fg:base)[ 󰧱 $user ]($style)[](fg:base)"
+format = "[](fg:base)[ 󱝁 $user ]($style)[](fg:base)"
 show_always = true
 style_root = "bg:base fg:font"
 style_user = "bg:base fg:font"
@@ -21,7 +21,7 @@ symbol = ""
 
 [time]
 disabled = false
-format = "[](fg:base)[ $time 󰴈 ]($style)[](fg:base)"
+format = "[](fg:base)[ $time  ]($style)[](fg:base)"
 style = "bg:base fg:pop"
 time_format = "%I:%M%P"
 use_12hr = true
