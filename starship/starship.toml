@@ -1,4 +1,4 @@
-format = "$username $directory $git_branch$fill $time\n  [󱞪](fg:light) "
+format = "$username $directory $git_branch$fill $time\n  [󱞪](fg:font) "
 palette = "starry-night"
 
 [username]
