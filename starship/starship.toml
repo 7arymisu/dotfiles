@@ -1,38 +1,38 @@
 format = "$username $directory $git_branch$fill $time\n  [󱞪](fg:light) "
-palette = "winter-wonder"
+palette = "starry-night"
 
 [username]
 disabled = false
-format = "[](fg:charcoal)[ 󰧱 $user ]($style)[](fg:charcoal)"
+format = "[](fg:base)[ 󰧱 $user ]($style)[](fg:base)"
 show_always = true
-style_root = "bg:charcoal fg:powder"
-style_user = "bg:charcoal fg:powder"
+style_root = "bg:base fg:font"
+style_user = "bg:base fg:font"
 
 [directory]
-format = "[](fg:charcoal)[$path]($style)[](fg:charcoal)"
-style = "bg:charcoal fg:powder"
+format = "[](fg:base)[$path]($style)[](fg:base)"
+style = "bg:base fg:font"
 truncation_length = 3
 truncation_symbol = ".../"
 
 [git_branch]
-format = "[](fg:charcoal)[ $symbol $branch ]($style)[](fg:charcoal)"
-style = "bg:charcoal fg:frost"
+format = "[](fg:base)[ $symbol $branch ]($style)[](fg:base)"
+style = "bg:base fg:accent"
 symbol = ""
 
 [time]
 disabled = false
-format = "[](fg:charcoal)[ $time 󰴈 ]($style)[](fg:charcoal)"
-style = "bg:charcoal fg:mist"
+format = "[](fg:base)[ $time 󰴈 ]($style)[](fg:base)"
+style = "bg:base fg:pop"
 time_format = "%I:%M%P"
 use_12hr = true
 
 [fill]
-style = "fg:charcoal"
+style = "fg:dim"
 symbol = " "
 
-[palettes.winter-wonder]
-charcoal = '#262d35'
-slate = '#24425e'
-frost = '#4369ab'
-mist = '#9daad5'
-powder = '#c2e0ec'
+[palettes.starry-night]
+base = '#191939'
+dim = '#1b3a68'
+font = '#f2e199'
+accent = '#6fb8e6'
+pop = '#ecb44d'
