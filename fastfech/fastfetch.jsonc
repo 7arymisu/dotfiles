@@ -8,79 +8,71 @@
   },
   "logo": {
     "type": "auto",
-    "source": "~/.config/fastfetch/frieren.txt",
+    "source": "~/.Downloads/ascii_imgs/moon.txt",
     "color": {
-      "1": "#ccccff",
-      "2": "#c6d2ff",
-      "3": "#c1d7ff",
-      "4": "#bedcff",
-      "5": "#bde0fe"
-    },
-    "padding": {
-      "top": 1,
-      "left": 1
+      "1": "#e0e0ff",
+      "2": "#d4d4f8",
+      "3": "#c8c8f2",
+      "4": "#bcbceb",
+      "5": "#b0b0e4",
+      "6": "#a5a5de",
+      "7": "#9999d7",
+      "8": "#8e8ed0",
+      "9": "#8282ca"
     }
   },
   "modules": [
-    "break",
-    {
-      "type": "command",
-      "key": "󰀄 USER",
-      "keyColor": "#ccccff",
-      "text": "echo $USER@$(hostnamectl hostname)"
-    },
     {
       "type": "os",
-      "key": "󰣇 OS",
-      "keyColor": "#c9cfff",
+      "key": "OS",
+      "keyColor": "#6fb8e6",
       "format": "{name} {version-id}"
     },
     {
-      "type": "command",
-      "key": "󰌽 KER",
-      "keyColor": "#c6d2ff",
-      "text": "echo $(uname -r | cut -d- -f1) $(uname -m)"
-    },
-    {
-      "type": "packages",
-      "key": "󰏗 PKG",
-      "keyColor": "#c4d4ff",
-      "format": "{all}"
-    },
-    {
-      "type": "terminal",
-      "key": "󰆍 TERM",
-      "keyColor": "#c1d7ff",
-      "format": "{pretty-name}"
-    },
-    {
       "type": "shell",
-      "key": "󰞷 SH",
-      "keyColor": "#c0d9ff",
-      "format": "{pretty-name}"
+      "key": "SH",
+      "keyColor": "#81b7d0",
+      "format": "{pretty-name}" 
     },
     {
-      "type": "uptime",
-      "keyColor": "#bedcff",
-      "key": "󰥔 UP"
+      "type": "cpu",
+      "key": "CPU",
+      "keyColor": "#93b6ba",
+      "format": "{brand} {frequency}GHz ({usage}%)"
     },
     {
       "type": "memory",
-      "key": "󰍛 RAM",
-      "keyColor": "#bddeff",
+      "key": "MEM",
+      "keyColor": "#a5b5a4",
       "format": "{used} / {total} ({percentage})"
     },
     {
+      "type": "battery",
+      "key": "BAT",
+      "keyColor": "#b7b48e",
+      "format": "{percentage} ({status})"
+    },
+    {
       "type": "disk",
-      "folders": "/",
-      "key": "󰋊 SSD",
-      "keyColor": "#bde0fe",
+      "key": "DSK",
+      "keyColor": "#c9b378",
       "format": "{size-used} / {size-total} ({size-percentage})"
     },
     {
-      "type": "custom",
-      "format": "\u001b[90m \u001b[91m \u001b[92m \u001b[93m \u001b[94m \u001b[95m \u001b[96m \u001b[97m"
+      "type": "uptime",
+      "key": "UP",
+      "keyColor": "#dbb262",
+      "format": "{days}d {hours}h {minutes}m"
     },
-    "break"
+    {
+      "type": "packages",
+      "key": "PKG",
+      "keyColor": "#ecb44d",
+      "format": "{count} packages"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;25;25;57m \u001b[38;2;26;41;80m \u001b[38;2;27;58;104m \u001b[38;2;69;121;167m \u001b[38;2;111;184;230m \u001b[38;2;176;204;191m \u001b[38;2;242;225;153m \u001b[38;2;236;180;77m "
+    }
   ]
 }
