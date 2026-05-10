@@ -8,7 +8,7 @@
   },
   "logo": {
     "type": "file",
-    "source": "/Users/tarynhuang/repos/dotfiles/ascii_imgs/blackhole.txt",
+    "source": "/Users/tarynhuang/repos/dotfiles/fastfetch/ascii_imgs/blackhole.txt",
     "color": {
       "1": "#e0e0ff",
       "2": "#b8c8ff",
@@ -21,54 +21,47 @@
     {
       "type": "os",
       "key": "OS",
-      "keyColor": "#6fb8e6",
+      "keyColor": "#c0d8f0",
       "format": "{name} {version-id}"
     },
     {
       "type": "shell",
       "key": "SH",
-      "keyColor": "#81b7d0",
+      "keyColor": "#a8c8e8",
       "format": "{pretty-name}" 
     },
     {
       "type": "cpu",
       "key": "CPU",
-      "keyColor": "#93b6ba",
-      "format": "{brand} {frequency}GHz ({usage}%)"
+      "keyColor": "#90b8e0",
+      "format": "{name}"
     },
     {
       "type": "memory",
       "key": "MEM",
-      "keyColor": "#a5b5a4",
+      "keyColor": "#78a8d8",
       "format": "{used} / {total} ({percentage})"
     },
     {
       "type": "battery",
       "key": "BAT",
-      "keyColor": "#b7b48e",
-      "format": "{percentage} ({status})"
-    },
-    {
-      "type": "disk",
-      "key": "DSK",
-      "keyColor": "#c9b378",
-      "format": "{size-used} / {size-total} ({size-percentage})"
+      "keyColor": "#6098d0",
+      "format": "{capacity} ({status})"
     },
     {
       "type": "uptime",
       "key": "UP",
-      "keyColor": "#dbb262",
+      "keyColor": "#3878c0",
       "format": "{days}d {hours}h {minutes}m"
     },
     {
       "type": "packages",
       "key": "PKG",
-      "keyColor": "#ecb44d",
-      "format": "{count} packages"
+      "keyColor": "#2868b8"
     },
+    "break",
     {
       "type": "custom",
-      "format": "\u001b[38;2;25;25;57m \u001b[38;2;26;41;80m \u001b[38;2;27;58;104m \u001b[38;2;69;121;167m \u001b[38;2;111;184;230m \u001b[38;2;176;204;191m \u001b[38;2;242;225;153m \u001b[38;2;236;180;77m "
-    }
+      "format": "\u001b[38;2;224;224;255m    \u001b[38;2;184;200;255m    \u001b[38;2;154;184;255m    \u001b[38;2;122;168;255m    \u001b[38;2;111;184;230m    \u001b[38;2;90;160;220m    \u001b[38;2;64;128;224m    \u001b[38;2;40;104;184m"}
   ]
 }
