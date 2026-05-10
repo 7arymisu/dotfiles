@@ -7,8 +7,8 @@
     "separator": ""
   },
   "logo": {
-    "type": "auto",
-    "source": "~/.Downloads/ascii_imgs/moon.txt",
+    "type": "file",
+    "source": "/Users/tarynhuang/Downloads/ascii_imgs/moon.txt",
     "color": {
       "1": "#e0e0ff",
       "2": "#d4d4f8",
