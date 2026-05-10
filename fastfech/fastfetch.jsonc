@@ -1,5 +1,5 @@
 {
-  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "$schema": "https://raw.githubusercontent.com/fastfetch-cli/fastfetch/main/schema.json",
   "display": {
     "key": {
       "width": 10
@@ -8,17 +8,13 @@
   },
   "logo": {
     "type": "file",
-    "source": "/Users/tarynhuang/Downloads/ascii_imgs/moon.txt",
+    "source": "/Users/tarynhuang/repos/dotfiles/ascii_imgs/blackhole.txt",
     "color": {
       "1": "#e0e0ff",
-      "2": "#d4d4f8",
-      "3": "#c8c8f2",
-      "4": "#bcbceb",
-      "5": "#b0b0e4",
-      "6": "#a5a5de",
-      "7": "#9999d7",
-      "8": "#8e8ed0",
-      "9": "#8282ca"
+      "2": "#b8c8ff",
+      "3": "#7aa8ff",
+      "4": "#4080e0",
+      "5": "#1050b8"
     }
   },
   "modules": [
