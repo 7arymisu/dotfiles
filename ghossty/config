@@ -1,0 +1,36 @@
+theme = Catppuccin Mocha
+background-blur-radius = 20
+mouse-hide-while-typing = true
+window-decoration = true
+macos-option-as-alt = true
+background-opacity = 0.87
+window-save-state = always
+
+font-family = "JetBrains Mono"
+window-theme = auto
+
+font-size = 14.5
+
+window-padding-x = 25
+window-padding-y = 5
+window-padding-balance = true
+
+window-width = 110
+window-height = 26
+
+adjust-cell-height = 1
+
+macos-icon-frame = chrome
+
+unfocused-split-opacity = 1
+
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
+
+background = #1D1E2E
+foreground = #cad3f5
+cursor-color = #F7B5F6
+cursor-text = #24273a
+selection-background = #7571F9
+selection-foreground = #FFFFFF
