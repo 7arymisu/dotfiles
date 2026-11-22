@@ -41,3 +41,10 @@ vim.keymap.set("n", "<C-`>", function()
 end)
 
 vim.keymap.set("t", "<esc><esc>", "<c-\\><c-n>:bd!<cr>")
+
+--- Scroll ---
+-- up
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
+-- down
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
+
