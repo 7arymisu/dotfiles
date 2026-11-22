@@ -15,6 +15,7 @@ unset __conda_setup
 
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source <(fzf --zsh)
 
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
