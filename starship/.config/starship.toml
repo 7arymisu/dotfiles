@@ -1,0 +1,38 @@
+format = "$username $directory $git_branch$fill $time\n  [󱞪](fg:font) "
+palette = "starry-night"
+
+[username]
+disabled = false
+format = "[](fg:base)[ 󱝁 $user ]($style)[](fg:base)"
+show_always = true
+style_root = "bg:base fg:font"
+style_user = "bg:base fg:font"
+
+[directory]
+format = "[](fg:base)[$path]($style)[](fg:base)"
+style = "bg:base fg:font"
+truncation_length = 3
+truncation_symbol = ".../"
+
+[git_branch]
+format = "[](fg:base)[ $symbol $branch ]($style)[](fg:base)"
+style = "bg:base fg:accent"
+symbol = ""
+
+[time]
+disabled = false
+format = "[](fg:base)[ $time  ]($style)[](fg:base)"
+style = "bg:base fg:pop"
+time_format = "%I:%M%P"
+use_12hr = true
+
+[fill]
+style = "fg:dim"
+symbol = " "
+
+[palettes.starry-night]
+base = '#191939'
+dim = '#1b3a68'
+font = '#f2e199'
+accent = '#6fb8e6'
+pop = '#ecb44d'
