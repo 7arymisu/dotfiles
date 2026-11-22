@@ -20,6 +20,8 @@ source <(fzf --zsh)
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 
+alias ff="nvim $(fzf --preview="cat {}")"
+
 alias ls="eza --icons"
 alias ll="eza -l --icons"
 alias la="eza -la --icons"
