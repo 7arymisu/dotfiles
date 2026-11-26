@@ -20,7 +20,11 @@ source <(fzf --zsh)
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 
-alias ff="nvim $(fzf --preview="cat {}")"
+# Pick a file with fzf, then open it in nvim
+ff() {
+  local file
+  file=$(fzf --preview="cat {}") && nvim "$file"
+}
 
 alias ls="eza --icons"
 alias ll="eza -l --icons"
@@ -39,9 +43,6 @@ alias gp="git push"
 alias dev="cd ~/Development"
 alias docs="cd ~/Documents"
 
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
 if [[ -n "$SSH_CONNECTION" ]]; then
   export TERM=xterm-256color
 fi
@@ -52,4 +53,4 @@ PATH="/Users/tarynhuang/perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="/Users/tarynhuang/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
 PERL_LOCAL_LIB_ROOT="/Users/tarynhuang/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
 PERL_MB_OPT="--install_base \"/Users/tarynhuang/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/Users/tarynhuang/perl5"; export PERL_MM_OPT;
+PERL_MM_OPT="INSTALL_BASE=/Users/tarynhuang/perl5"; export PERL_MM_OPT;ERL_MM_OPT="INSTALL_BASE=/Users/tarynhuang/perl5"; export PERL_MM_OPT;
