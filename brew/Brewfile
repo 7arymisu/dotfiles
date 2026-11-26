@@ -1,0 +1,23 @@
+# Taps
+tap "thezoraiz/ascii-image-converter"
+
+# CLI tools
+brew "eza"
+brew "fastfetch"
+brew "fzf"
+brew "gh"
+brew "git-lfs"
+brew "neovim"
+brew "starship"
+brew "stow"
+brew "thezoraiz/ascii-image-converter/ascii-image-converter"
+brew "tmux"
+brew "tree-sitter-cli"
+brew "zoxide"
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+
+# Apps and fonts
+cask "anki"
+cask "font-meslo-lg-nerd-font"
+cask "vorssaint"
